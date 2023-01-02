@@ -158,6 +158,11 @@ ul {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ 1.jpg);
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .first-sec>.container {
@@ -293,11 +298,18 @@ ul {
   gap: 24px;
 }
 
+
+
 .title-section-team {
   margin-bottom: 72px;
 }
 
-.team-member {}
+.team-member {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
 
 .photo-member {
   margin-bottom: 32px;
