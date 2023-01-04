@@ -299,6 +299,8 @@ ul {
 
 .duing-img-hand {}
 
+/* -- команда -- */
+
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -333,7 +335,6 @@ ul {
 .teem-text {
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
 
 .team-tile {
@@ -354,6 +355,31 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+
+.team-soc-list {
+  display: flex;
+  gap: 24px;
+}
+
+.teem-soc-item {
+  width: 40px;
+  height: 40px;
+  background-color: #404bbf;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teem-soc-link.link {
+ }
+
+
+.teem-soc-icon {
+}
+
+
 
 .footer {
   background-color: #2E2F42;
