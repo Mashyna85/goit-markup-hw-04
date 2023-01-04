@@ -230,11 +230,26 @@ ul {
   content: "";
   display: block;
   height: 112px;
-  background-image: url(../img/Group.png);
   background-size: 59.72*64;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #F4F4FD;
+}
+
+.services-list-item:nth-child(1)::before {
+  background-image: url(../img/antenna.svg);
+}
+
+.services-list-item:nth-child(2)::before {
+  background-image: url(../img/clock.svg);
+}
+
+.services-list-item:nth-child(3)::before {
+  background-image: url(../img/diagram.svg);
+}
+
+.services-list-item:nth-child(4)::before {
+  background-image: url(../img/astronaut.svg);
 }
 
 .services-title {
