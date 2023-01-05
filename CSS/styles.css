@@ -533,7 +533,9 @@ ul {
 .item-button:hover,
 .item-button:focus {
   color: #ffffff;
+  background-color: #4d5ae5;
 }
+
 
 .section-img-portfolio {}
 
