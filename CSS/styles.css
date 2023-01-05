@@ -429,7 +429,7 @@ ul {
 
 .costomers-soc-icon:hover,
 .costomers-soc-icon:focus {
-  background-color:  #404bbf;
+  background-color: #404bbf;
 }
 
 /* -- Погріб -- */
@@ -446,6 +446,10 @@ ul {
   margin-bottom: 16px;
 }
 
+.footer-box {
+  display: flex;
+}
+
 .footer-text {
   width: 264px;
   left: 156px;
@@ -453,7 +457,6 @@ ul {
 }
 
 .footer-logo-text {
-  display: flex;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -488,11 +491,12 @@ ul {
 }
 
 .footer-title {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  margin-bottom: 16px;
 }
 
 .footer-soc-list {
@@ -514,6 +518,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #2E2F42;
 }
 
 
