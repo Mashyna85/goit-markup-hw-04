@@ -227,6 +227,8 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .services-list-item:nth-child(1)::before {
@@ -382,9 +384,10 @@ ul {
 
 /* -- Клієнти -- */
 
-.section-customers>.container {
-  padding-top: 130px;
+.section-customers {
+  padding-top: 120px;
   padding-bottom: 120px;
+
 }
 
 .customers-title {
@@ -418,6 +421,7 @@ ul {
 .costomers-item:hover,
 .costomers-item:focus {
   border-color: #404bbf;
+  fill: #404bbf;
 }
 
 .costomers-soc-link {}
@@ -429,7 +433,7 @@ ul {
 
 .costomers-soc-icon:hover,
 .costomers-soc-icon:focus {
-  background-color: #404bbf;
+  fill: #404bbf;
 }
 
 /* -- Погріб -- */
@@ -543,6 +547,12 @@ ul {
   justify-content: center
 }
 
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .button-list-item {}
 
 .item-button {
@@ -567,6 +577,8 @@ ul {
 .item-button:focus {
   color: #ffffff;
   background-color: #4d5ae5;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 
@@ -581,6 +593,11 @@ ul {
   border: 1px solid #E7E9FC;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.portfolio-list-item-last:hover,
+.portfolio-list-item-last:focus {
+  border: 1px solid #E7E9FC;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-one {
   display: flex;
@@ -589,7 +606,6 @@ ul {
 }
 
 .portfolio-list-small-box {
-  border: 1px solid #E7E9FC;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
