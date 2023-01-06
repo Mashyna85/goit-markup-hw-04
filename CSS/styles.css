@@ -411,29 +411,27 @@ ul {
 .costomers-item {
   width: 168px;
   height: 88px;
+}
+
+.costomers-soc-link {
+  width: 100%;
+  height: 100%;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #AFB1B8;
 }
 
-
-.costomers-item:hover,
-.costomers-item:focus {
+.costomers-soc-link:hover,
+.costomers-soc-link:focus {
   border-color: #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
 }
 
 .costomers-soc-icon {
-  fill: #AFB1B8;
-  background-color: #FFFFFF;
-  
-}
-
-.costomers-soc-icon:hover,
-.costomers-soc-icon:focus {
-  fill: #404bbf;
+  fill: currentColor;
 }
 
 /* -- Погріб -- */
