@@ -424,7 +424,10 @@ ul {
   fill: #404bbf;
 }
 
-.costomers-soc-link {}
+.costomers-soc-link:hover,
+.costomers-soc-link:focus {
+  fill: #404bbf;
+}
 
 .costomers-soc-icon {
   fill: #AFB1B8;
@@ -446,7 +449,6 @@ ul {
 
 .footer-logo {
   display: flex;
-  margin-right: 156px;
   margin-bottom: 16px;
 }
 
@@ -529,8 +531,6 @@ ul {
   background-color: #2E2F42;
 }
 
-
-
 /* портфоліо */
 
 .section-portfolio {
@@ -549,6 +549,7 @@ ul {
 
 .portfolio-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -581,10 +582,9 @@ ul {
   border-radius: 4px;
 }
 
-
-.section-img-portfolio {}
-
 .portfolio-list-item {
+  align-items: center;
+  gap: 24px;
   margin-bottom: 48px;
 }
 
@@ -593,16 +593,11 @@ ul {
   border: 1px solid #E7E9FC;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-list-item-last:hover,
 .portfolio-list-item-last:focus {
   border: 1px solid #E7E9FC;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-one {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 .portfolio-list-small-box {
@@ -612,21 +607,9 @@ ul {
   padding-right: 0px;
 }
 
-.portfolio-two {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+.portfolio-list-item {
+  border: 1px solid #E7E9FC;
 }
-
-.portfolio-tre {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.portfolio-list {}
-
-.portfolio-list-item {}
 
 .portfolio-list-title {
   font-weight: 500;
