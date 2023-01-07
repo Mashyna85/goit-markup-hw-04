@@ -213,12 +213,12 @@ ul {
 
 .services-list {
   display: flex;
+  gap: 24px;
 }
 
 .services-list-item {
   width: 264px;
   color: #2e2f42;
-  padding-right: 24px;
 }
 
 .services-list-item::before {
@@ -231,6 +231,7 @@ ul {
   background-color: #F4F4FD;
   border-radius: 4px;
   margin-bottom: 8px;
+  gap: 24px;
 }
 
 .services-list-item:nth-child(1)::before {
